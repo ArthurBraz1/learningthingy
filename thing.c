@@ -1,6 +1,10 @@
 #include <stdio.h>
+int calculator(void);
+int main(void){
+    calculator();   
+}
 
-int main(void) {
+int calculator(void) {
 
     int counter;
     int operand;
@@ -45,6 +49,6 @@ int main(void) {
 
         printf("Result is: %d\n", result);
     }
-
+    main();
     return 0;
 }
