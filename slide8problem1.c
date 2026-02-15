@@ -1,0 +1,15 @@
+// type *variable name; -> pointer, e.g: int *memaddress;
+// stores the memory address of another variable of the same type.
+
+// int *mema;
+//  int a=90;
+// mema= &a;
+// * access the content of the address indicated by the pointer
+// & is the address itself
+// printf("%d", *mema);
+
+
+// OPERATIONS WITH POINTERS: you can check if an address is greater, lesser or equal to another;
+// if a pointer has no associated address, it is in NULL state
+
+CHANGING THE CONTENTS OF A FUCKING POINTER ALSO CHANGES THE VALUE IN THE VARIABLE THEYRE ADDRESSED TO, KMS.

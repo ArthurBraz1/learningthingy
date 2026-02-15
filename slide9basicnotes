@@ -1,0 +1,29 @@
+fucking files.
+to declare a file: FILE *filename;
+to OPEN a file: FILE *fopen(char*filename, char *opening_mode);
+to CLOSE a file: int fclose(FILE*filename);
+
+MODES of file opening
+r -- opens a file-text for reading
+w -- creates a file-text for writing
+a -- annexes to a file-text
+rb -- opens a binary file to read
+wb -- creates a binary file to write
+ab -- annexes to a binary file
+r+ -- opens a file-text for reading/writing
+w+ -- creates a file-text for reading/writing
+a+ annexes or creates a file-text for reading/writing
+r+b -- opens a binary file for reading/writing
+w+b -- creates a binary file for reading/writing
+a+b annexes to a binary file for reading/writing
+
+the fopen() function
+opens a file, remember to add an if incase the return of the function is NULL 
+since that means that there was an error opening it.
+
+the fclose() function
+closes a file, returns 0 if no errors
+if theres an error, it returns a value different than 0
+receives as parameter a pointer to FILE
+when fclose() is used, two pending datas on the buffer of the file are written
+and the physical file is dissociated from FILE*
