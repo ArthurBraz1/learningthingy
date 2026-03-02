@@ -1,0 +1,14 @@
+to define a struct
+typedef struct <nameofstruct> {
+    <member>;
+    <member>;
+    
+} <nameoftypedef>;
+example, to organize data about a book, including name of book, author, category and book identifier, goes like this
+
+typedef struct Books{
+    char name[100];
+    char author[100];
+    char category[100];
+    int id;
+  } book;
